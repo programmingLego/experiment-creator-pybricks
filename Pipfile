@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyserial = ">=3.3,<4.0"
+docopt = "<0.7,>=0.6.2"
+adafruit-ampy = "<1.1,>=1.0.5"
+pybricks = "==3.0.0rc1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
